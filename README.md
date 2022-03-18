@@ -20,7 +20,7 @@ You essentially have 2 options:
     - Clone the materials by executing the following in the git bash or terminal window:    
 
     ```bash
-    git clone https://github.com/spark-brc/2022_APEXMF_PEST.git
+    git clone https://github.com/spark-brc/2022_ArcAPEX_apexmf_opt.git
     ```  
         
 ## Installation
@@ -54,7 +54,7 @@ pip install numpy scipy xlrd pandas matplotlib ipywidgets pillow flopy pyemu
 Then change directory into the example folder or drive:  
 - Change directory (example)
 ```bash
-cd 2022_APEXMF_PEST-main 
+cd 2022_ArcAPEX_apexmf_opt-main
 ```  
 - Launch jupyter notebook 
 ```bash
