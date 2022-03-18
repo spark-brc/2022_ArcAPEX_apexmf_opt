@@ -48,9 +48,12 @@ conda activate apexmf_pest
 ```
 - Finally, install libraries 
 ```bash
-pip install numpy scipy xlrd pandas matplotlib ipywidgets pillow flopy pyemu
+pip install apexmf
 ```
-
+if you have apexmf library
+```bash
+pip install -U apexmf
+```
 Then change directory into the example folder or drive:  
 - Change directory (example)
 ```bash
