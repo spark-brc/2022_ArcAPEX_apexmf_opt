@@ -1,0 +1,234 @@
+                  PEST RUN MANAGEMENT RECORD: CASE ani_pest_rw
+ 
+ 
+ ****************************************
+ RUN MANAGEMENT UNDERTAKEN USING BEOPEST.
+ COMMUNICATIONS PROTOCOL = TCP.
+ ****************************************
+ 
+
+ NUMLAM in the PEST control file was set to a negative number.
+ PARLAM has therefore been set to -9999.
+
+ BEOPEST PARLAM behaviour is as follows:-
+ PARALLELISE LAMBDA SEARCH     : yes
+ MAX SLAVES IN LAMDBA SEARCH   : 7
+ SLOW RUN DECLARATION FACTOR   : 2.5000
+
+ RUNNING MODEL FOR FIRST TIME  -----> 
+
+ Running model 1 time....
+   17 Mar 23:28:15.10:- index of 1 assigned to node at working directory "192.168.56.1\\D:\Workshops\20220316_ArcAPEX Training\Day03\model_optimization\animas_zon_cal\worker_0".
+   17 Mar 23:28:15.10:- model run 1 commencing on node 1.
+   17 Mar 23:28:16.04:- index of 2 assigned to node at working directory "192.168.56.1\\D:\Workshops\20220316_ArcAPEX Training\Day03\model_optimization\animas_zon_cal\worker_1".
+   17 Mar 23:28:16.96:- index of 3 assigned to node at working directory "192.168.56.1\\D:\Workshops\20220316_ArcAPEX Training\Day03\model_optimization\animas_zon_cal\worker_2".
+   17 Mar 23:28:43.26:- model run 1 completed on node 1.
+
+
+ OPTIMISATION ITERATION NO.  1 ----->
+
+ Calculating Jacobian matrix: running model 10 times .....
+   17 Mar 23:28:43.35:- model run 1 commencing on node 3.
+   17 Mar 23:28:43.35:- model run 2 commencing on node 2.
+   17 Mar 23:28:43.35:- model run 3 commencing on node 1.
+   17 Mar 23:29:45.45:- model run 3 completed on node 1.
+   17 Mar 23:29:45.45:- model run 4 commencing on node 1.
+   17 Mar 23:29:45.47:- model run 1 completed on node 3.
+   17 Mar 23:29:45.47:- model run 5 commencing on node 3.
+   17 Mar 23:29:46.81:- model run 2 completed on node 2.
+   17 Mar 23:29:46.81:- model run 6 commencing on node 2.
+   17 Mar 23:30:02.33:- index of 4 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_3".
+   17 Mar 23:30:02.33:- model run 7 commencing on node 4.
+   17 Mar 23:30:02.86:- index of 5 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_4".
+   17 Mar 23:30:02.86:- model run 8 commencing on node 5.
+   17 Mar 23:30:03.42:- index of 6 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_5".
+   17 Mar 23:30:03.42:- model run 9 commencing on node 6.
+   17 Mar 23:30:04.02:- index of 7 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_6".
+   17 Mar 23:30:04.02:- model run 10 commencing on node 7.
+   17 Mar 23:30:04.65:- index of 8 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_7".
+   17 Mar 23:30:05.23:- index of 9 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_8".
+   17 Mar 23:30:05.84:- index of 10 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_9".
+   17 Mar 23:30:06.51:- index of 11 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_10".
+   17 Mar 23:30:07.08:- index of 12 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_11".
+   17 Mar 23:30:07.78:- index of 13 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_12".
+   17 Mar 23:30:08.45:- index of 14 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_13".
+   17 Mar 23:30:09.14:- index of 15 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_14".
+   17 Mar 23:30:09.79:- index of 16 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_15".
+   17 Mar 23:30:10.51:- index of 17 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_16".
+   17 Mar 23:30:11.21:- index of 18 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_17".
+   17 Mar 23:30:11.93:- index of 19 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_18".
+   17 Mar 23:30:12.61:- index of 20 assigned to node at working directory "172.20.1.161\\C:\Users\seonggyu.park\Desktop\apexmf_opt\animas_zon_cal\worker_19".
+   17 Mar 23:30:35.80:- model run 5 completed on node 3.
+   17 Mar 23:30:36.82:- model run 6 completed on node 2.
+   17 Mar 23:30:37.79:- model run 4 completed on node 1.
+   17 Mar 23:30:50.27:- model run 7 completed on node 4.
+   17 Mar 23:30:51.47:- model run 8 completed on node 5.
+   17 Mar 23:30:51.72:- model run 9 completed on node 6.
+   17 Mar 23:30:52.33:- model run 10 completed on node 7.
+
+ Testing parameter upgrades .....
+   17 Mar 23:30:52.36:- model run 1 commencing on node 4.
+   17 Mar 23:30:52.36:- model run 2 commencing on node 6.
+   17 Mar 23:30:52.36:- model run 3 commencing on node 7.
+   17 Mar 23:30:52.36:- model run 4 commencing on node 5.
+   17 Mar 23:30:52.36:- model run 5 commencing on node 2.
+   17 Mar 23:30:52.36:- model run 6 commencing on node 3.
+   17 Mar 23:30:52.36:- model run 7 commencing on node 1.
+   17 Mar 23:31:40.24:- model run 4 completed on node 5.
+   17 Mar 23:31:40.40:- model run 2 completed on node 6.
+   17 Mar 23:31:40.44:- model run 1 completed on node 4.
+   17 Mar 23:31:40.45:- model run 3 completed on node 7.
+   17 Mar 23:31:41.80:- model run 6 completed on node 3.
+   17 Mar 23:31:42.64:- model run 7 completed on node 1.
+   17 Mar 23:31:44.65:- model run 5 completed on node 2.
+
+
+ OPTIMISATION ITERATION NO.  2 ----->
+
+ Calculating Jacobian matrix: running model 20 times .....
+   17 Mar 23:31:44.74:- model run 1 commencing on node 5.
+   17 Mar 23:31:44.74:- model run 2 commencing on node 6.
+   17 Mar 23:31:44.74:- model run 3 commencing on node 7.
+   17 Mar 23:31:44.74:- model run 4 commencing on node 4.
+   17 Mar 23:31:44.74:- model run 5 commencing on node 3.
+   17 Mar 23:31:44.74:- model run 6 commencing on node 1.
+   17 Mar 23:31:44.74:- model run 7 commencing on node 2.
+   17 Mar 23:31:44.74:- model run 8 commencing on node 18.
+   17 Mar 23:31:44.74:- model run 9 commencing on node 17.
+   17 Mar 23:31:44.74:- model run 10 commencing on node 16.
+   17 Mar 23:31:44.74:- model run 11 commencing on node 14.
+   17 Mar 23:31:44.74:- model run 12 commencing on node 13.
+   17 Mar 23:31:44.74:- model run 13 commencing on node 12.
+   17 Mar 23:31:44.74:- model run 14 commencing on node 11.
+   17 Mar 23:31:44.74:- model run 15 commencing on node 10.
+   17 Mar 23:31:44.74:- model run 16 commencing on node 9.
+   17 Mar 23:31:44.74:- model run 17 commencing on node 8.
+   17 Mar 23:31:44.74:- model run 18 commencing on node 20.
+   17 Mar 23:31:44.74:- model run 19 commencing on node 19.
+   17 Mar 23:31:44.74:- model run 20 commencing on node 15.
+   17 Mar 23:32:31.90:- model run 5 completed on node 3.
+   17 Mar 23:32:32.77:- model run 6 completed on node 1.
+   17 Mar 23:32:35.28:- model run 7 completed on node 2.
+   17 Mar 23:33:47.20:- overdue run on node 5; model run 1 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 6; model run 2 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 7; model run 3 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- model run 1 commencing on node 3.
+   17 Mar 23:33:47.20:- overdue run on node 4; model run 4 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- model run 2 commencing on node 1.
+   17 Mar 23:33:47.20:- model run 3 commencing on node 2.
+   17 Mar 23:33:47.20:- overdue run on node 16; model run 10 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 17; model run 9 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 18; model run 8 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 13; model run 12 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 14; model run 11 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 8; model run 17 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 9; model run 16 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 10; model run 15 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 11; model run 14 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 12; model run 13 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 19; model run 19 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 20; model run 18 may be re-assigned to another node.
+   17 Mar 23:33:47.20:- overdue run on node 15; model run 20 may be re-assigned to another node.
+   17 Mar 23:34:36.11:- model run 3 completed on node 2.
+   17 Mar 23:34:36.11:- model run 4 commencing on node 2.
+   17 Mar 23:34:37.29:- model run 2 completed on node 1.
+   17 Mar 23:34:37.29:- model run 8 commencing on node 1.
+   17 Mar 23:34:39.22:- model run 1 completed on node 3.
+   17 Mar 23:34:39.22:- model run 9 commencing on node 3.
+   17 Mar 23:35:11.81:- model run 4 completed on node 2.
+   17 Mar 23:35:11.81:- model run 10 commencing on node 2.
+   17 Mar 23:35:13.24:- model run 8 completed on node 1.
+   17 Mar 23:35:13.24:- model run 11 commencing on node 1.
+   17 Mar 23:35:14.80:- model run 9 completed on node 3.
+   17 Mar 23:35:14.80:- model run 12 commencing on node 3.
+   17 Mar 23:35:38.94:- model run completed on node 4; old run so results not needed.
+   17 Mar 23:35:38.94:- model run 13 commencing on node 4.
+   17 Mar 23:35:39.39:- model run completed on node 5; old run so results not needed.
+   17 Mar 23:35:39.39:- model run 14 commencing on node 5.
+   17 Mar 23:35:40.53:- model run completed on node 6; old run so results not needed.
+   17 Mar 23:35:40.53:- model run 15 commencing on node 6.
+   17 Mar 23:35:42.58:- model run completed on node 17; old run so results not needed.
+   17 Mar 23:35:42.58:- model run 16 commencing on node 17.
+   17 Mar 23:35:42.63:- model run completed on node 19; old run so results not needed.
+   17 Mar 23:35:42.63:- model run 17 commencing on node 19.
+   17 Mar 23:35:42.68:- model run 12 completed on node 13.
+   17 Mar 23:35:42.68:- model run 18 commencing on node 13.
+   17 Mar 23:35:42.87:- model run completed on node 15; old run so results not needed.
+   17 Mar 23:35:42.87:- model run 19 commencing on node 15.
+   17 Mar 23:35:43.00:- model run 16 completed on node 9.
+   17 Mar 23:35:43.00:- model run 20 commencing on node 9.
+   17 Mar 23:35:43.02:- model run 13 completed on node 12.
+   17 Mar 23:35:43.11:- model run 15 completed on node 10.
+   17 Mar 23:35:43.47:- model run 10 completed on node 16.
+   17 Mar 23:35:43.50:- model run completed on node 18; old run so results not needed.
+   17 Mar 23:35:43.76:- model run 11 completed on node 14.
+   17 Mar 23:35:43.76:- model run completed on node 7; old run so results not needed.
+   17 Mar 23:35:43.90:- model run 17 completed on node 8.
+   17 Mar 23:35:43.93:- model run 18 completed on node 20.
+   17 Mar 23:35:43.93:- model run 14 completed on node 11.
+   17 Mar 23:35:58.28:- model run completed on node 2; old run so results not needed.
+   17 Mar 23:36:00.69:- model run completed on node 1; old run so results not needed.
+   17 Mar 23:36:03.64:- model run completed on node 3; old run so results not needed.
+   17 Mar 23:37:28.73:- model run completed on node 4; old run so results not needed.
+   17 Mar 23:37:28.90:- model run completed on node 5; old run so results not needed.
+   17 Mar 23:37:30.00:- model run completed on node 6; old run so results not needed.
+   17 Mar 23:37:32.52:- model run completed on node 17; old run so results not needed.
+   17 Mar 23:37:32.94:- model run completed on node 19; old run so results not needed.
+   17 Mar 23:37:33.16:- model run 19 completed on node 15.
+   17 Mar 23:37:33.21:- model run 20 completed on node 9.
+
+ Testing parameter upgrades .....
+   17 Mar 23:37:33.23:- model run 1 commencing on node 2.
+   17 Mar 23:37:33.23:- model run 2 commencing on node 1.
+   17 Mar 23:37:33.23:- model run 3 commencing on node 3.
+   17 Mar 23:38:21.59:- model run 1 completed on node 2.
+   17 Mar 23:38:22.35:- model run 3 completed on node 3.
+   17 Mar 23:38:24.74:- model run 2 completed on node 1.
+
+
+ OPTIMISATION ITERATION NO.  3 ----->
+
+ Calculating Jacobian matrix: running model 20 times .....
+   17 Mar 23:38:24.84:- model run 1 commencing on node 2.
+   17 Mar 23:38:24.84:- model run 2 commencing on node 3.
+   17 Mar 23:38:24.84:- model run 3 commencing on node 1.
+   17 Mar 23:38:24.84:- model run 4 commencing on node 6.
+   17 Mar 23:38:24.84:- model run 5 commencing on node 5.
+   17 Mar 23:38:24.84:- model run 6 commencing on node 4.
+   17 Mar 23:38:24.84:- model run 7 commencing on node 17.
+   17 Mar 23:38:24.84:- model run 8 commencing on node 9.
+   17 Mar 23:38:24.84:- model run 9 commencing on node 15.
+   17 Mar 23:38:24.84:- model run 10 commencing on node 19.
+   17 Mar 23:38:24.84:- model run 11 commencing on node 13.
+   17 Mar 23:38:24.84:- model run 12 commencing on node 12.
+   17 Mar 23:38:24.84:- model run 13 commencing on node 10.
+   17 Mar 23:38:24.84:- model run 14 commencing on node 16.
+   17 Mar 23:38:24.84:- model run 15 commencing on node 18.
+   17 Mar 23:38:24.84:- model run 16 commencing on node 14.
+   17 Mar 23:38:24.84:- model run 17 commencing on node 7.
+   17 Mar 23:38:24.84:- model run 18 commencing on node 8.
+   17 Mar 23:38:24.84:- model run 19 commencing on node 20.
+   17 Mar 23:38:24.84:- model run 20 commencing on node 11.
+   17 Mar 23:39:07.76:- model run 3 completed on node 1.
+   17 Mar 23:39:08.25:- model run 2 completed on node 3.
+   17 Mar 23:39:09.87:- model run 1 completed on node 2.
+   17 Mar 23:41:02.09:- model run failure on node 20; will attempt model run 19 one more time.
+   17 Mar 23:41:02.09:- model run 19 commencing on node 1.
+   17 Mar 23:41:02.09:- model run failure on node 15; will attempt model run 9 one more time.
+   17 Mar 23:41:02.09:- model run failure on node 17; will attempt model run 7 one more time.
+   17 Mar 23:41:02.09:- model run failure on node 19; will attempt model run 10 one more time.
+   17 Mar 23:41:02.09:- model run 7 commencing on node 3.
+   17 Mar 23:41:02.09:- model run 9 commencing on node 2.
+   17 Mar 23:41:02.11:- model run failure on node 13; will attempt model run 11 one more time.
+   17 Mar 23:41:02.11:- model run failure on node 16; will attempt model run 14 one more time.
+   17 Mar 23:41:02.11:- model run failure on node 5; will attempt model run 5 one more time.
+   17 Mar 23:41:02.11:- model run failure on node 6; will attempt model run 4 one more time.
+   17 Mar 23:41:02.11:- model run failure on node 8; will attempt model run 18 one more time.
+   17 Mar 23:41:02.11:- model run failure on node 10; will attempt model run 13 one more time.
+   17 Mar 23:41:02.12:- model run failure on node 9; will attempt model run 8 one more time.
+   17 Mar 23:41:02.17:- model run failure on node 18; will attempt model run 15 one more time.
+   17 Mar 23:41:02.18:- model run failure on node 11; will attempt model run 20 one more time.
+   17 Mar 23:41:02.18:- model run failure on node 14; will attempt model run 16 one more time.
+   17 Mar 23:41:02.18:- model run failure on node 7; will attempt model run 17 one more time.
+   17 Mar 23:41:02.20:- model run failure on node 4; will attempt model run 6 one more time.
+   17 Mar 23:41:02.20:- model run failure on node 12; will attempt model run 12 one more time.

@@ -1,0 +1,25 @@
+# GHB: General-Head Boundary package file created on 1/26/2022 by ModelMuse version 4.3.0.0.
+    22     9 AUXILIARY IFACE # DataSet 2: MXACTC IGHBCB Option
+    22     0 # Data Set 5: ITMP NP Stress period 1
+     1   126     3  1.727804848485E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   127     3  1.713297001837E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   128     3  1.665641090909E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   128     2  1.671590484848E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129     2  1.648077065197E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129     1  1.656174907308E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   130     1  1.635541935829E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   131     1  1.615925914360E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   131     2  1.622077501783E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   131     3  1.627921886809E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   131     4  1.648792470588E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   130     4  1.640048868093E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   130     5  1.687137212121E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129     5  1.645408809917E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129     6  1.674849183655E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129     7  1.718568804813E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129     8  1.737663967860E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129     9  1.748767636364E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129    10  1.763082399287E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129    11  1.774441110193E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129    12  1.782217438935E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+     1   129    13  1.793651403743E+003   3.000000000000E+003      0 # Data Set 6: Layer Row Column Bhead Cond IFACE

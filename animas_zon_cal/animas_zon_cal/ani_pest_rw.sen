@@ -1,0 +1,29 @@
+                     PARAMETER SENSITIVITIES: CASE ani_pest_rw
+
+
+ OPTIMISATION ITERATION NO.  1 ----->
+ Parameter name    Group          Current value    Sensitivity
+   hk01            hk               1.00000          0.00000    
+   hk02            hk               1.00000          0.00000    
+   p012            apex             2.50000         0.362001    
+   p016            apex             1.00000         0.166472    
+   p017            apex            0.250000         0.107277    
+   p091            apex            0.100000          0.00000    
+   p092            apex             1.00000         0.524594    
+   p095            apex             7.00000          14.2469    
+   sy01            sy              0.200000          0.00000    
+   sy02            sy              0.200000          0.00000    
+
+
+ OPTIMISATION ITERATION NO.  2 ----->
+ Parameter name    Group          Current value    Sensitivity
+   hk01            hk               1.00000          0.00000    
+   hk02            hk               1.00000          0.00000    
+   p012            apex             1.50000         0.142777    
+   p016            apex             1.00000         5.295201E-02
+   p017            apex            0.338567         0.137334    
+   p091            apex            0.100000         2.048553E-13
+   p092            apex             2.00000         0.165469    
+   p095            apex             7.00934          3.01618    
+   sy01            sy              0.200000         2.048553E-13
+   sy02            sy              0.200000         2.048553E-13

@@ -1,0 +1,2 @@
+# NWT: Newton Solver file created on 9/8/2020 by ModelMuse version 4.2.0.0.
+     1       500  2000     1E-005     2     1     0 COMPLEX # Data Set 1, HEADTOL FLUXTOL MAXITEROUT THICKFACT LINMETH IPRNWT IBOTAV OPTIONS

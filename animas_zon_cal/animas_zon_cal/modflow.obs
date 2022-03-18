@@ -1,0 +1,14 @@
+# modflow.obs file is created by APEXMOD plugin version 1.0.- 05/19/20 14:14:33 -
+12	                # Number of observation cells
+5	71	1	375	3754.37	# Row, Col, Layer, grid_id, elevation 
+18	50	1	1342	3325.98	# Row, Col, Layer, grid_id, elevation 
+22	54	1	1650	3197.10	# Row, Col, Layer, grid_id, elevation 
+35	66	1	2650	3593.78	# Row, Col, Layer, grid_id, elevation 
+39	31	1	2919	2972.38	# Row, Col, Layer, grid_id, elevation 
+42	55	1	3171	3537.42	# Row, Col, Layer, grid_id, elevation 
+47	28	1	3524	3066.44	# Row, Col, Layer, grid_id, elevation 
+63	29	1	4741	2649.38	# Row, Col, Layer, grid_id, elevation 
+65	49	1	4913	2612.24	# Row, Col, Layer, grid_id, elevation 
+98	32	1	7404	1912.88	# Row, Col, Layer, grid_id, elevation 
+124	20	1	9368	1752.54	# Row, Col, Layer, grid_id, elevation 
+128	4	1	9656	1668.30	# Row, Col, Layer, grid_id, elevation 

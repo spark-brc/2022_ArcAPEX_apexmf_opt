@@ -1,0 +1,354 @@
+                     PEST RUN RECORD: CASE ani_pest_rw
+
+
+ BEOPEST Version: 16.1
+
+
+ PEST run mode:-
+
+    Parameter estimation mode
+
+
+ Case dimensions:-
+
+    Number of parameters                           :    10
+    Number of adjustable parameters                :    10
+    Number of parameter groups                     :     3
+    Number of observations                         :    49
+    Number of prior estimates                      :     0
+
+
+ Model command line(s):-
+ 
+    python forward_run.py
+
+
+ Jacobian command line:-
+
+    na
+
+
+ Model interface files:-
+
+    Templates:
+       MODFLOW\mf_1000.pval.tpl
+       PARM1501.DAT.tpl
+    for model input files:
+       mf_1000.pval
+       PARM1501.DAT
+
+    (Parameter values written using single precision protocol.)
+    (Decimal point always included.)
+
+    Instruction files:
+       dtw_5895.txt.ins
+       dtw_6273.txt.ins
+       stf_012.txt.ins
+       stf_057.txt.ins
+       stf_075.txt.ins
+    for reading model output files:
+       dtw_5895.txt
+       dtw_6273.txt
+       stf_012.txt
+       stf_057.txt
+       stf_075.txt
+
+
+ PEST-to-model message file:-
+
+    na
+
+
+ Singular value decomposition:-
+
+    Perform SVD on XtQX or Q^(1/2)X               : XtQX
+    Max. number of singular values to employ      : 10000000
+    Ratio of lowest/highest singular value        :  1.000000E-06
+    Record eigenvectors in SVD file               : yes
+
+
+ Derivatives calculation:-
+
+ Param        Increment   Increment   Increment   Forward or   Multiplier  Method
+ group        type                    low bound   central      (central)   (central)
+ apex         relative    1.0000E-02   none         switch       2.000     parabolic
+ hk           relative    1.0000E-02   none         switch       2.000     parabolic
+ sy           relative    1.0000E-02   none         switch       2.000     parabolic
+
+ Derivatives problem rectification through split slope analysis:-
+
+ Param        Slope inaction      Rel. slope diff      Action
+ group        threshold           threshold
+ apex         1.0000E-05            0.5000            use_smaller
+ hk           1.0000E-05            0.5000            use_smaller
+ sy           1.0000E-05            0.5000            use_smaller
+
+
+ Parameter definitions:-
+
+ Name         Trans-            Change       Initial        Lower          Upper
+              formation         limit        value          bound          bound
+ hk01         log               factor      1.00000       1.000000E-02    100.000    
+ hk02         log               factor      1.00000       1.000000E-02    100.000    
+ p012         log               factor      2.50000        1.50000        2.50000    
+ p016         log               factor      1.00000        1.00000        1.50000    
+ p017         log               factor     0.250000       1.000000E-05   0.500000    
+ p091         log               factor     0.100000       1.000000E-03    1.00000    
+ p092         log               factor      1.00000       0.100000        2.00000    
+ p095         log               factor      7.00000       1.000000E-05    15.0000    
+ sy01         log               factor     0.200000       1.000000E-03   0.500000    
+ sy02         log               factor     0.200000       1.000000E-03   0.500000    
+
+ Name         Group          Scale         Offset        Model command number
+ hk01         hk            1.00000        0.00000            1
+ hk02         hk            1.00000        0.00000            1
+ p012         apex          1.00000        0.00000            1
+ p016         apex          1.00000        0.00000            1
+ p017         apex          1.00000        0.00000            1
+ p091         apex          1.00000        0.00000            1
+ p092         apex          1.00000        0.00000            1
+ p095         apex          1.00000        0.00000            1
+ sy01         sy            1.00000        0.00000            1
+ sy02         sy            1.00000        0.00000            1
+
+
+ Prior information:-
+
+    No prior information supplied
+
+
+ Observations:-
+
+ Observation name        Observation       Weight       Group
+  gw_098_20020305        -30.4500          33.77       gw_098      
+  gw_098_20020516        -30.5800          33.77       gw_098      
+  gw_098_20020612        -30.5400          33.77       gw_098      
+  gw_098_20020701        -30.4700          33.77       gw_098      
+  gw_098_20021008        -30.5600          33.77       gw_098      
+  gw_098_20021125        -30.5900          33.77       gw_098      
+  gw_124_20020305        -7.83000          3.514       gw_124      
+  gw_124_20020516        -5.71000          3.514       gw_124      
+  gw_124_20020522        -8.81000          3.514       gw_124      
+  gw_124_20020612        -8.47000          3.514       gw_124      
+  gw_124_20020710        -8.30000          3.514       gw_124      
+  gw_124_20021008        -8.86000          3.514       gw_124      
+  gw_124_20021205        -9.20000          3.514       gw_124      
+  stf_012_200201          1.40000          2.910       stf_012     
+  stf_012_200202          1.33000          2.910       stf_012     
+  stf_012_200203          1.64000          2.910       stf_012     
+  stf_012_200204          5.05000          2.910       stf_012     
+  stf_012_200205          9.67000          2.910       stf_012     
+  stf_012_200206          6.56000          2.910       stf_012     
+  stf_012_200207          2.35000          2.910       stf_012     
+  stf_012_200208          2.00000          2.910       stf_012     
+  stf_012_200209          3.75000          2.910       stf_012     
+  stf_012_200210          3.45000          2.910       stf_012     
+  stf_012_200211          2.33000          2.910       stf_012     
+  stf_012_200212          1.66000          2.910       stf_012     
+  stf_057_200201          6.53000          1.671       stf_057     
+  stf_057_200202          5.41000          1.671       stf_057     
+  stf_057_200203          4.97000          1.671       stf_057     
+  stf_057_200204          9.19000          1.671       stf_057     
+  stf_057_200205          15.3500          1.671       stf_057     
+  stf_057_200206          10.4100          1.671       stf_057     
+  stf_057_200207          4.14000          1.671       stf_057     
+  stf_057_200208          3.24000          1.671       stf_057     
+  stf_057_200209          9.22000          1.671       stf_057     
+  stf_057_200210          9.09000          1.671       stf_057     
+  stf_057_200211          7.66000          1.671       stf_057     
+  stf_057_200212          6.48000          1.671       stf_057     
+  stf_075_200201          6.92000          1.504       stf_075     
+  stf_075_200202          5.95000          1.504       stf_075     
+  stf_075_200203          5.00000          1.504       stf_075     
+  stf_075_200204          3.01000          1.504       stf_075     
+  stf_075_200205          7.90000          1.504       stf_075     
+  stf_075_200206          4.83000          1.504       stf_075     
+  stf_075_200207         0.400000          1.504       stf_075     
+  stf_075_200208         0.130000          1.504       stf_075     
+  stf_075_200209          6.82000          1.504       stf_075     
+  stf_075_200210          6.88000          1.504       stf_075     
+  stf_075_200211          8.19000          1.504       stf_075     
+  stf_075_200212          7.42000          1.504       stf_075     
+
+
+ Control settings:-
+
+    Initial lambda                                               :  20.000    
+    Lambda adjustment factor                                     : iteration-dependent
+    Value of variable governing adjustment                       : -3.0000    
+    Sufficient new/old phi ratio per optimisation iteration      : 0.30000    
+    Limiting relative phi reduction between lambdas              : 1.00000E-02
+    Maximum trial lambdas per iteration                          :   7
+    Forgive model run failure during lamda testing               : no
+    Forgive model run failure during Jacobian runs               : no
+
+    Perform Broyden's update of Jacobian matrix                  : no
+    Undertake observation re-referencing                         : no
+
+    Maximum  factor  parameter change (factor-limited changes)   :  10.000
+    Maximum relative parameter change (relative-limited changes) : na
+    Fraction of initial parameter values used in computing
+    change limit for near-zero parameters                        : 1.00000E-03
+    Allow bending of parameter upgrade vector                    : no
+    Allow parameters to stick to their bounds                    : no
+
+    Relative phi reduction below which to begin use of
+    central derivatives                                          : 0.10000             
+    Iteration at which to first consider derivatives switch      :   1
+    New-to-old phi to commence split slope deriv analysis        :na
+
+    Relative phi reduction indicating convergence                : 0.10000E-01
+    Number of phi values required within this range              :   3
+    Maximum number of consecutive failures to lower phi          :   3
+    Minimal relative parameter change indicating convergence     : 0.10000E-01
+    Number of consecutive iterations with minimal param change   :   3
+    Maximum number of optimisation iterations                    :  50
+
+    Attempt automatic user intervention                          : no
+
+    Attempt reuse of parameter sensitivities                     : no
+
+    Scale parameters by their bounds                             : no
+
+
+ File saving options: -
+
+    Save best JCO file                                           : yes
+    Save multiple JCO files                                      : no
+    Save multiple REI files                                      : no
+    Save multiple PAR files                                      : no
+ 
+ 
+                             OPTIMISATION RECORD
+
+
+ INITIAL CONDITIONS: 
+    Sum of squared weighted residuals (ie phi)               =   21200.    
+    Contribution to phi from observation group "gw_098"      =   4240.1    
+    Contribution to phi from observation group "gw_124"      =   4240.1    
+    Contribution to phi from observation group "stf_012"     =   4240.1    
+    Contribution to phi from observation group "stf_057"     =   4240.0    
+    Contribution to phi from observation group "stf_075"     =   4240.0    
+ 
+       Current parameter values
+       hk01             1.00000    
+       hk02             1.00000    
+       p012             2.50000    
+       p016             1.00000    
+       p017            0.250000    
+       p091            0.100000    
+       p092             1.00000    
+       p095             7.00000    
+       sy01            0.200000    
+       sy02            0.200000    
+
+
+ OPTIMISATION ITERATION NO.        : 1
+    Model calls so far             : 1
+    Starting phi for this iteration                          :   21200.    
+    Contribution to phi from observation group "gw_098"      :   4240.1    
+    Contribution to phi from observation group "gw_124"      :   4240.1    
+    Contribution to phi from observation group "stf_012"     :   4240.1    
+    Contribution to phi from observation group "stf_057"     :   4240.0    
+    Contribution to phi from observation group "stf_075"     :   4240.0    
+ 
+    Parameter "hk01" has no effect on observations.
+    Parameter "hk02" has no effect on observations.
+    Parameter "p091" has no effect on observations.
+    Parameter "sy01" has no effect on observations.
+    Parameter "sy02" has no effect on observations.
+        param "p016" frozen: - update vector out of bounds
+
+        Lambda =   2.7144     ----->
+           Phi =   20399.      (  0.962 of starting phi)
+
+        Lambda =   1.0000     ----->
+           Phi =   20360.      (  0.960 of starting phi)
+
+        Lambda =   7.3681     ----->
+           Phi =   20400.      (  0.962 of starting phi)
+
+        Lambda =  0.36840     ----->
+           Phi =   20375.      (  0.961 of starting phi)
+
+        Lambda =   20.000     ----->
+           Phi =   20389.      (  0.962 of starting phi)
+
+        Lambda =  0.13572     ----->
+           Phi =   20424.      (  0.963 of starting phi)
+
+        Lambda =   54.288     ----->
+           Phi =   20363.      (  0.960 of starting phi)
+
+    No more lambdas: allowed lambdas per iteration =  7
+    Lowest phi this iteration:   20360.    
+    Relative phi reduction between optimisation iterations less than 0.1000
+    Switch to higher order derivatives calculation
+    Split slope derivatives analysis begins during next iteration
+
+       Current parameter values                 Previous parameter values
+       hk01             1.00000                 hk01              1.00000    
+       hk02             1.00000                 hk02              1.00000    
+       p012             1.50000                 p012              2.50000    
+       p016             1.00000                 p016              1.00000    
+       p017            0.338567                 p017             0.250000    
+       p091            0.100000                 p091             0.100000    
+       p092             2.00000                 p092              1.00000    
+       p095             7.00934                 p095              7.00000    
+       sy01            0.200000                 sy01             0.200000    
+       sy02            0.200000                 sy02             0.200000    
+    Maximum   factor change:  2.000     ["p092"]
+    Maximum relative change:  1.000     ["p092"]
+
+
+ OPTIMISATION ITERATION NO.        : 2
+    Model calls so far             : 18
+    Starting phi for this iteration                          :   20360.    
+    Contribution to phi from observation group "gw_098"      :   4240.1    
+    Contribution to phi from observation group "gw_124"      :   4240.1    
+    Contribution to phi from observation group "stf_012"     :   4178.5    
+    Contribution to phi from observation group "stf_057"     :   3929.1    
+    Contribution to phi from observation group "stf_075"     :   3772.5    
+    All frozen parameters freed.
+ 
+    Parameter "hk01" has no effect on observations.
+    Parameter "hk02" has no effect on observations.
+        param "p012" frozen: gradient and update vectors out of bounds
+        param "p092" frozen: gradient and update vectors out of bounds
+
+        Lambda =  0.36840     ----->
+           Phi =   20282.      (  0.996 of starting phi)
+
+        Lambda =  0.18420     ----->
+           Phi =   20282.      (  0.996 of starting phi)
+
+        Lambda =  0.73681     ----->
+           Phi =   20282.      (  0.996 of starting phi)
+
+    No more lambdas: allowed lambdas per iteration =  3
+    Lowest phi this iteration:   20282.    
+
+       Current parameter values                 Previous parameter values
+       hk01             1.00000                 hk01              1.00000    
+       hk02             1.00000                 hk02              1.00000    
+       p012             1.50000                 p012              1.50000    
+       p016             1.50000                 p016              1.00000    
+       p017            0.434128                 p017             0.338567    
+       p091            0.100000                 p091             0.100000    
+       p092             2.00000                 p092              2.00000    
+       p095             6.97808                 p095              7.00934    
+       sy01            0.200000                 sy01             0.200000    
+       sy02            0.200000                 sy02             0.200000    
+    Maximum   factor change:  1.500     ["p016"]
+    Maximum relative change: 0.5000     ["p016"]
+
+
+ OPTIMISATION ITERATION NO.        : 3
+    Model calls so far             : 41
+    Starting phi for this iteration                          :   20282.    
+    Contribution to phi from observation group "gw_098"      :   4240.1    
+    Contribution to phi from observation group "gw_124"      :   4240.1    
+    Contribution to phi from observation group "stf_012"     :   4154.2    
+    Contribution to phi from observation group "stf_057"     :   3900.4    
+    Contribution to phi from observation group "stf_075"     :   3747.3    
+    All frozen parameters freed.
