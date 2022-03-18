@@ -4,7 +4,7 @@
 You essentially have 2 options:
 
 #### - Easy way
-- [Download the data zip file](https://github.com/spark-brc/2022_APEXMF_PEST/archive/refs/heads/main.zip)
+- [Download the data zip file](https://github.com/spark-brc/2022_ArcAPEX_apexmf_opt/archive/refs/heads/main.zip)
 - Unzip it to a prefered location.
 - After unzipping the archive file, unzip the "SWAT-MODFLOW" model zip file too.
 
